@@ -1,5 +1,5 @@
 $python_url = "https://www.python.org/ftp/python/3.12.0/python-3.12.0-amd64.exe"
-$python_output_file = "C:\Users\artanim\Downloads\python-3.12.0-amd64.exe"
+$python_output_file = "C:\Users\...\Downloads\python-3.12.0-amd64.exe"
 
 if (Test-Path $python_output_file) {
     Write-Host "$python_output_file exists - skipping installation"
